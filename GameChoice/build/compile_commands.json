@@ -1,0 +1,164 @@
+[
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal msgfmthelper ../data/org.example.App.desktop.in data/org.example.App.desktop desktop ../data/../po",
+    "file": "../data/org.example.App.desktop.in",
+    "output": "data/org.example.App.desktop"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal msgfmthelper ../data/org.example.App.appdata.xml.in data/org.example.App.appdata.xml xml ../data/../po",
+    "file": "../data/org.example.App.appdata.xml.in",
+    "output": "data/org.example.App.appdata.xml"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/glib-compile-resources ../src/gamechoice.gresource.xml --sourcedir ../src --internal --generate --target src/gamechoice.gresource --dependency-file src/gamechoice.gresource.d",
+    "file": "../src/gamechoice.gresource.xml",
+    "output": "src/gamechoice.gresource"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-gamechoice-pot",
+    "output": "gamechoice-pot"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-gamechoice-gmo",
+    "output": "gamechoice-gmo"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-gamechoice-update-po",
+    "output": "gamechoice-update-po"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson test --no-rebuild --print-errorlogs",
+    "file": "all",
+    "output": "meson-test"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-test",
+    "output": "test"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson test --benchmark --logbase benchmarklog --num-processes=1 --no-rebuild",
+    "file": "all",
+    "output": "meson-benchmark"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-benchmark",
+    "output": "benchmark"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson install --no-rebuild",
+    "file": "PHONY",
+    "output": "meson-install"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-install",
+    "output": "install"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson dist",
+    "file": "PHONY",
+    "output": "meson-dist"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-dist",
+    "output": "dist"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal tags etags /home/matt/Documents/Projects/GameChoice/GameChoice",
+    "file": "PHONY",
+    "output": "meson-TAGS"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-TAGS",
+    "output": "TAGS"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal tags ctags /home/matt/Documents/Projects/GameChoice/GameChoice",
+    "file": "PHONY",
+    "output": "meson-ctags"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-ctags",
+    "output": "ctags"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal uninstall",
+    "file": "PHONY",
+    "output": "meson-uninstall"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-uninstall",
+    "output": "uninstall"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "data/org.example.App.desktop",
+    "output": "all"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-clean",
+    "output": "clean"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal cleantrees /home/matt/Documents/Projects/GameChoice/GameChoice/build/meson-private/cleantrees.dat",
+    "file": "PHONY",
+    "output": "meson-clean-ctlist"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "",
+    "file": "meson-clean-ctlist",
+    "output": "clean-ctlist"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/ninja -t clean",
+    "file": "PHONY",
+    "output": "meson-clean"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal regenerate /home/matt/Documents/Projects/GameChoice/GameChoice /home/matt/Documents/Projects/GameChoice/GameChoice/build --backend ninja",
+    "file": "../meson.build",
+    "output": "build.ninja"
+  },
+  {
+    "directory": "/home/matt/Documents/Projects/GameChoice/GameChoice/build",
+    "command": "/usr/bin/meson --internal regenerate /home/matt/Documents/Projects/GameChoice/GameChoice /home/matt/Documents/Projects/GameChoice/GameChoice/build --backend ninja",
+    "file": "PHONY",
+    "output": "reconfigure"
+  }
+]
