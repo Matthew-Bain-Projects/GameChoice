@@ -1,0 +1,15 @@
+create table BoardGames(
+	game_id SERIAL PRIMARY KEY,
+	title TEXT NOT NULL,
+	designer TEXT NOT NULL,
+	weight REAL NOT NULL,
+	num_players TEXT NOT NULL,
+	theme TEXT,
+	party_game BOOL,
+	coop SMALLINT,
+	time_to_play REAL NOT NULL,
+	game_type TEXT NOT NULL,
+	main_mechanic TEXT,
+	secondary_mechanic TEXT,
+	trinary_mechanic TEXT
+	)
