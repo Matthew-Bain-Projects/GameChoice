@@ -1,2 +1,2 @@
-src/database_info.py
-src/__pycache__/*
+database_info.py
+/__pycache__/*
