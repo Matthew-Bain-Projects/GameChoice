@@ -17,7 +17,7 @@
         <property name="homogeneous">True</property>
         <child>
           <object class="GtkButton" id="Main_Button">
-            <property name="label" translatable="yes">Show the information for the first game in the database</property>
+            <property name="label" translatable="yes">button</property>
             <property name="visible">True</property>
             <property name="can-focus">True</property>
             <property name="receives-default">True</property>
